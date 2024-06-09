@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, pink, purple);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+    font-family: sans-serif;
+}
+
+.form {
+    font-weight: bold;
+    color: purple;
+}
+
+.form .font {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+form input {
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 18px;
+    border: 2px solid green;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: purple;
+    color: white;
+    margin-top: 20px;
+    height: 45px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: plum;
+    color: purple;
+}
+
+#email_error, #pass_error {
+    color: red;
+    display: none;
+}
